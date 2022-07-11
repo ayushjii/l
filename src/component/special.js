@@ -1,10 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import pulse from  '../images/pulse.jpg';
+import spices from '../images/three.jpg';
 
 const SpecialStyles =styled.section`
-#ourSpecials {
+
 	padding-top: 10rem;
-}
+
 .ourSpecials__wrapper {
 	display: flex;
 	flex-direction: column;
@@ -121,46 +123,44 @@ const SpecialStyles =styled.section`
 
 export default function Special(){
     return(
-        <SpecialStyles id="ourSpecials" data-aos="fade-up">
+        <SpecialStyles data-aos="fade-up">
     <div className="container">
       <div className="ourSpecials__wrapper">
         <div className="ourSpecials__left">
           <div className="ourSpecials__item">
             <div className="ourSpecials__item__img">
-              <img src="./images/food-3.png" alt="food img" />
+              <img src={spices} alt="spices" />
             </div>
             <h2 className="ourSpecials__item__title">
-              Sweet Potato Fries Bowl
+              Home Grinded Spices
             </h2>
             <h3 className="ourSpecials__item__price">
-              $18
+              Rs. 70 per 200gm
             </h3>
-            <div className="ourSpecials__item__stars">
+            {/* <div className="ourSpecials__item__stars">
               <img src="./images/3star.png" alt="3 stars" />
-            </div>
+            </div> */}
             <p className="ourSpecials__item__text">
-              These Sweet Potato Fries bowl are a glorious, messy plate of goodness. Crispy sweet potato fries loaded
-              with lots of fresh summer vegetables and a lime ranch. By adding a seasoning blend with chipotle powder,
-              garlic, and onion, these spicy sweet potato fries are full of flavor.
-            </p>
+            Spices like <b>Turmeric</b>, <b>Chilli</b>& <b>Coriander</b> are being self grinded by us 
+			considering the quality of Spices usage of best and selected items to grind.
+			</p>
           </div>
           <div className="ourSpecials__item">
             <div className="ourSpecials__item__img">
-              <img src="./images/food-1.png" alt="food img" />
+              <img src={pulse} alt="pulse" />
             </div> 
             <h2 className="ourSpecials__item__title">
-              Vegan Salad bowl
+              Organic(desi) Pulses
             </h2>
             <h3 className="ourSpecials__item__price">
-              $18
+              Rs. 85 per 500gm
             </h3>
-            <div className="ourSpecials__item__stars">
-              <img src="./images/3star.png" alt="3 stars" />
-            </div>
+            {/* <div className="ourSpecials__item__stars">
+              <img src="../images/pulse.png" alt="pulse" />
+            </div> */}
             <p className="ourSpecials__item__text">
-              Vegan salad bowl are immensely satisfying with any combination of whole grains, pulses, noodles, raw or
-              cooked fruits, and veggies all topped off with a delicious sauce or dressing – each bite is an explosion
-              of flavors and textures.
+              Without colour and Polish Organic Pulses are only provided by us 
+			  Desi Dal with the best quality of each selected item are available here.
             </p>
           </div>
         </div>
@@ -169,8 +169,10 @@ export default function Special(){
             Our Specials
           </h2>
           <p className="ourSpecials__text">
-            All of our food is prepared daily at our restaurants to ensure the highest quality, freshest meals are
-            delivered to our customers
+		  Our Products like Spices and Wheat flour are produced according to the 
+		  demand of the customer requirement. 
+
+		 <b> Grind Fresh !! Sell Fresh !!</b>
           </p>
           <a href="./booking.html" className="btn primary-btn">Book Table</a>
         </div>
