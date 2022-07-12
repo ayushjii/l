@@ -94,7 +94,7 @@ export default function Choose(){
       <div className="whyUs__wrapper">
         <div className="whyUs__left" data-aos="fade-right">
           <h2 className="whyUs__title">
-            Why Choose Our Food
+            Why Choose Our Product
           </h2>
           <p className="whyUs__text">
             Quality of Service, Product, Quality and Value of Money are the primary elements for choosing a Company's Products.
