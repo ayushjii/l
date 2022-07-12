@@ -2,10 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import pulse from  '../images/pulse.jpg';
 import spices from '../images/three.jpg';
+import {IoIosStar, IoIosStarHalf} from 'react-icons/io';
 
 const SpecialStyles =styled.section`
-
 	padding-top: 10rem;
+	margin-top: 8rem;
 
 .ourSpecials__wrapper {
 	display: flex;
@@ -66,11 +67,11 @@ const SpecialStyles =styled.section`
 	color: var(--black-2);
 	margin-bottom: 1rem;
 }
+
 @media only screen and (min-width: 768px) {
-	#ourSpecials {
 		padding-top: 15rem;
-	}
-	#ourSpecials .container {
+	
+	 .container {
 		max-width: 900px;
 	}
 	.ourSpecials__wrapper {
@@ -110,6 +111,7 @@ const SpecialStyles =styled.section`
 		margin-bottom: 1.5rem;
 	}
 }
+
 @media only screen and (max-width: 300px) {
 	.ourSpecials__left {
 		flex-wrap: wrap;
@@ -137,14 +139,19 @@ export default function Special(){
             <h3 className="ourSpecials__item__price">
               Rs. 70 per 200gm
             </h3>
-            {/* <div className="ourSpecials__item__stars">
-              <img src="./images/3star.png" alt="3 stars" />
-            </div> */}
+            <div className="ourSpecials__item__stars">
+              <IoIosStar size={25} color="#031038" />
+			  <IoIosStar size={25} color="#031038" />
+			  <IoIosStar size={25} color="#031038" />
+			  <IoIosStar size={25} color="#031038" />
+			  <IoIosStarHalf size={25} color="#031038" />
+            </div>
             <p className="ourSpecials__item__text">
             Spices like <b>Turmeric</b>, <b>Chilli</b>& <b>Coriander</b> are being self grinded by us 
 			considering the quality of Spices usage of best and selected items to grind.
 			</p>
           </div>
+		  
           <div className="ourSpecials__item">
             <div className="ourSpecials__item__img">
               <img src={pulse} alt="pulse" />
@@ -155,9 +162,13 @@ export default function Special(){
             <h3 className="ourSpecials__item__price">
               Rs. 85 per 500gm
             </h3>
-            {/* <div className="ourSpecials__item__stars">
-              <img src="../images/pulse.png" alt="pulse" />
-            </div> */}
+            <div className="ourSpecials__item__stars">
+			<IoIosStar size={25} color="#031038" />
+			  <IoIosStar size={25} color="#031038" />
+			  <IoIosStar size={25} color="#031038" />
+			  <IoIosStar size={25} color="#031038" />
+			  <IoIosStarHalf size={25} color="#031038" />
+            </div>
             <p className="ourSpecials__item__text">
               Without colour and Polish Organic Pulses are only provided by us 
 			  Desi Dal with the best quality of each selected item are available here.
@@ -174,7 +185,7 @@ export default function Special(){
 
 		 <b> Grind Fresh !! Sell Fresh !!</b>
           </p>
-          <a href="./booking.html" className="btn primary-btn">Book Table</a>
+          <a href="./booking" className="btn primary-btn">Book Order</a>
         </div>
       </div>
     </div>

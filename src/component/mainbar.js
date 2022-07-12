@@ -87,19 +87,18 @@ export default function Sign() {
 
             <h1 className="hero__heading">The flavor of tradition</h1>
             <p className="hero__info">
-              We are a multi-cuisine restaurant offering a wide variety of food experience in both casual and fine
-              dining
-              environment.
+              We are providing multiple items with best and selected item of insane 
+			  flavor of produced. Quality is our first Priority.  
             </p>
             <div className="button__wrapper">
-              <a href="./menu.html" className="btn primary-btn">Explore Menu</a>
-              <a href="/" className="btn">Book Table</a>
+              <a href="./menu.html" className="btn primary-btn">Explore Products</a>
+              <a href="/" className="btn">Book Order</a>
             </div>
           </div>
         </div>
         <div className="hero__right" data-aos="fade-right">
           <div className="hero__imgWrapper">
-            <img src={mix} alt='' />
+            <img src={mix} alt='All PRODUCTS' />
           </div>
         </div>
       </div>
