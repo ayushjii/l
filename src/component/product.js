@@ -15,7 +15,6 @@ const Productstyles = styled.section`
 }
 .topproduct__wrapper {
 	display: grid;
-	/* grid-template-columns: repeat(autofit, minmax(140px, 1fr)); */
 	grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 	gap: 1rem;
 }
@@ -31,7 +30,7 @@ const Productstyles = styled.section`
 	flex: 4;
 }
 .topproduct__item__info {
-	flex: 5;
+	flex: 4;
 }
 .topproduct__item__img img {
 	object-fit: cover;
@@ -39,16 +38,14 @@ const Productstyles = styled.section`
 }
 .topproduct__item__title {
 	font-size: 1.4rem;
-	line-height: 1.3em;
+	line-height: 0px;
 	font-weight: 500;
 	color: var(--black-1);
-	margin-bottom: 0.5rem;
 }
 .topproduct__item__price {
 	font-size: 1.4rem;
 	color: var(--green-1);
 	font-weight: 600;
-	margin-bottom: 0.5rem;
 }
 .topproduct__item__stars {
 	max-height: 15px;

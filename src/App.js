@@ -1,5 +1,6 @@
 import React from "react";
 import Sign from "./component/mainbar";
+import TakeAway from "./component/offer";
 import Toproduct from "./component/product";
 import Special from "./component/special";
 import Info from "./component/Store";
@@ -14,6 +15,7 @@ function App() {
      <Info />
      <Special />
      <Toproduct />
+     <TakeAway />
     </div>
   );
 }
