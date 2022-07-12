@@ -66,7 +66,7 @@ export default function Info(){
       <div className="storeInfo__wrapper">
         <div className="storeInfo__item">
           <div className="storeInfo__icon">
-           <BsFillClockFill />
+           <BsFillClockFill size={65} color="#26643b" />
           </div>
           <h3 className="storeInfo__title">
             11 AM - 9 PM
@@ -77,7 +77,7 @@ export default function Info(){
         </div>
         <div className="storeInfo__item">
           <div className="storeInfo__icon">
-           <HiLocationMarker />
+           <HiLocationMarker size={65} color="#26643b"/>
           </div>
           <h3 className="storeInfo__title">
             Madipur, New Delhi-110068
@@ -88,7 +88,7 @@ export default function Info(){
         </div>
         <div className="storeInfo__item">
           <div className="storeInfo__icon">
-           <IoCall />
+           <IoCall size={65} color="#26643b"/>
           </div>
           <h3 className="storeInfo__title">
             9211017025
