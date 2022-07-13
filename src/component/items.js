@@ -1,17 +1,16 @@
 import React from 'react';
-import styled from 'styled-components';
+// import styled from 'styled-components';
+import Rice from '../images/rice.jpg';
 
-const ItemStyles = styled.div`
-
-`
 export default function ItemsComp ({
     Product_name="Name",
-    price="@"
+    price="@",
+    itemimage=Rice
 }){
     return(
-        <ItemStyles class="dishGrid__item">
+        <div class="dishGrid__item">
         <div class="dishGrid__item__img">
-          <img src="./images/food-1.png" alt="food img" />
+          <img src={itemimage} alt="" />
         </div>
         <div class="dishGrid__item__info">
           <h3 class="dishGrid__item__title">
@@ -19,9 +18,9 @@ export default function ItemsComp ({
           </h3>
           <h3 class="dishGrid__item__price">{price}</h3>
           <div class="dishGrid__item__stars">
-            <img src="./images/3star.png" alt="3 star" />
+            
           </div>
         </div>
-      </ItemStyles>
+      </div>
     );
 }
