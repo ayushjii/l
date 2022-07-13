@@ -1,5 +1,6 @@
 import React from "react";
 import Choose from "./component/Choose";
+import Footer from "./component/Footer";
 import Sign from "./component/mainbar";
 import TakeAway from "./component/offer";
 import Toproduct from "./component/product";
@@ -19,6 +20,7 @@ function App() {
      <TakeAway />
      <Choose />
      <Rev />
+     <Footer />
     </div>
   );
 }

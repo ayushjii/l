@@ -1,5 +1,4 @@
 import React from 'react';
-import {MdOutlineRiceBowl} from 'react-icons/md'
 import styled from 'styled-components';
 import {ImCross} from 'react-icons/im';
 import {FcList} from 'react-icons/fc';
@@ -92,7 +91,12 @@ const Navbarstyle = styled.div`
 	}
 }
 .logo{
-   font-size: 50px;
+   font-size: 10px;
+   color:#000;
+   weight:1000;
+}
+.b{
+	font-height: 
 }
 `
 
@@ -102,7 +106,8 @@ export default function Navbar(){
         <div className="container">
           <div className="nav__wrapper">
             <a href="/" className="logo">
-              <div><MdOutlineRiceBowl />Jc</div>
+              <h1 className='a'>Jadoo</h1>
+			  <h3 className='b'>Chawal</h3>
             </a>
             <nav>
               <div className="nav__icon">
