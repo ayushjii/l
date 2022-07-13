@@ -120,8 +120,8 @@ export default function Navbar(){
                 </div>
                 <div className="nav__list__wrapper">
     
-                  <li><a className="nav__link" href="./index">Home</a></li>
-                  <li><a className="nav__link" href="./menu">Products</a></li>
+                  <li><a className="nav__link" href="./">Home</a></li>
+                  <li><a className="nav__link" href="./product">Products</a></li>
                   <li><a className="nav__link" href="./about">About Us</a></li>
                   <li><a className="nav__link" href="./contact">Contact</a></li>
                   <li><Button href="/" className="btn primary-btn">Book Order</Button></li>

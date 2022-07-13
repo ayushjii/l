@@ -88,6 +88,7 @@ footer {
 	.footer__text__title {
 		font-size: 2rem;
 		margin-bottom: 2rem;
+    text-align: center;
 	}
 	.footer__text a {
 		font-size: 1.8rem;
@@ -100,6 +101,9 @@ footer {
 .copyright__text {
 	font-size: 1.4rem;
 	text-align: center;
+}
+ol, ul {
+    list-style: none;
 }
 @media only screen and (min-width: 768px) {
 	.copyright__text {
@@ -148,19 +152,19 @@ export default function Footer() {
           </h3>
           <ol className="footer__text">
             <li>
-              <a href="/index.html">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="./menu.html">Menu</a>
+              <a href="/product">Products</a>
             </li>
             <li>
-              <a href="./booking.html">Book Table</a>
+              <a href="/order">Place Order</a>
             </li>
             <li>
-              <a href="./about.html">About Us</a>
+              <a href="/about">About Us</a>
             </li>
             <li>
-              <a href="./contact.html">contact Us</a>
+              <a href="/contact">contact Us</a>
             </li>
             <li>
               <a href="/">Privacy Policy</a>
@@ -189,13 +193,13 @@ export default function Footer() {
           </h3>
           <ol className="footer__text">
             <li>
-              <a href="/">+880123</a>
+              <a href="/">9211017025</a>
             </li>
             <li>
-              <a href="/">webcifar@gmail.com</a>
+              <a href="/">Jc@gmail.com</a>
             </li>
             <li>
-              <a href="/">GEC Circle, Chittagong, Bangladesh</a>
+              <a href="/">Madipur, New Delhi, India</a>
             </li>
           </ol>
         </div>

@@ -1,28 +1,22 @@
-import React from "react";
-import Choose from "./component/Choose";
-import Footer from "./component/Footer";
-import Sign from "./component/mainbar";
-import TakeAway from "./component/offer";
-import Toproduct from "./component/product";
-import Rev from "./component/Review";
-import Special from "./component/special";
-import Info from "./component/Store";
-import { Navbarmain } from "./Pages/NavbarMain";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Home from './Pages/Home';
+import Products from './Pages/Products';
 
-function App() {
-  return (
-    <div className="App">
-     <Navbarmain />
-     <Sign />
-     <Info />
-     <Special />
-     <Toproduct />
-     <TakeAway />
-     <Choose />
-     <Rev />
-     <Footer />
-    </div>
-  );
+
+export default function App(){
+    return(
+        <Router>
+            <div>
+                <Routes>
+                    <Route exact path='/' element={<Home/>} />
+                    <Route path='/product' element={<Products/>} />
+                    <Route path='/about' element={<About/>} />
+                    <Route path='/contact' element={<Contact/>} />
+                </Routes>
+            </div>
+        </Router>
+    );
 }
-
-export default App;
