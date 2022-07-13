@@ -140,7 +140,7 @@ export default function TakeAway(){
 			  <IoIosStar size={25} color="#031038" />
 			  <IoStarOutline size={25} color="#031038" />
           </div>
-          <a className="btn primary-btn" href="./booking.html">Book Table</a>
+          <a className="btn primary-btn" href="./booking.html">Place Order</a>
         </div>
       </div>
     </div>
