@@ -1,10 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import ItemsComp from './items';
-// import spice from '../images/rice.jpg';
 
 const RiceStyles = styled.section`
-	padding-bottom: 0;
 
 #dishGrid:last-of-type {
 	padding-bottom: 10rem;
@@ -18,7 +16,6 @@ const RiceStyles = styled.section`
 }
 .dishGrid__wrapper {
 	display: grid;
-	/* grid-template-columns: repeat(autofit, minmax(140px, 1fr)); */
 	grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 	gap: 1rem;
 }
