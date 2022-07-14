@@ -209,7 +209,7 @@ export default function Footer() {
   <div id="copyright">
     <div className="container">
       <p className="copyright__text">
-      © {year} - KRPKG | Designed By Ayush Goyal 
+      © {year} - KRPKG | Designed with 🧡 By Ayush Goyal 
       </p>
     </div>
   </div>

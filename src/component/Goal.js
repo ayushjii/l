@@ -54,11 +54,7 @@ export default function Goal() {
           Our Goals
         </h3>
         <p class="ourGoals__text">
-          We shall sell delicious and remarkable food and beverages that meet the highest quality, freshness, and
-          seasonality criteria while combining modern-creative and classic cooking traditions. By showcasing warmth,
-          graciousness, efficiency, skill, professionalism, and integrity in our work, we will continually serve our
-          consumers with exceptional service. To have every customer who comes through our doors leave impressed by
-          their experience at Shaif's Cuisine and excited to come back again.
+        Bringing up more items 
         </p>
       </div>
       <div class="ourGoals__imgs__wrapper" data-aos="fade-up">
