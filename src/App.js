@@ -1,12 +1,24 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Products from './Pages/Products';
 
+export default class App extends Component {
 
-export default function App(){
+    constructor(props) {
+    
+        super(props);
+        this.state = {
+            users: []
+        }
+       } 
+    
+        componentDidMount() {
+            fetch('/api/users')
+        }
+        render() {
     return(
         <Router>
             <div>
@@ -19,4 +31,5 @@ export default function App(){
             </div>
         </Router>
     );
+}
 }
