@@ -1,27 +1,24 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Products from './Pages/Products';
 
-export default class App extends Component {
+export default function App () {
 
-    constructor(props) {
     
-        super(props);
-        this.state = {
-            users: []
-        }
-       } 
-    
-        componentDidMount() {
-            fetch('/api/users')
-        }
-        render() {
+
     return(
         <Router>
             <div>
+           
+            <form action="/post" method="post" 
+              className="form">
+          <button type="submit">Connected?</button>
+        </form>
+   
+    
                 <Routes>
                     <Route exact path='/' element={<Home/>} />
                     <Route path='/product' element={<Products/>} />
@@ -31,5 +28,4 @@ export default class App extends Component {
             </div>
         </Router>
     );
-}
 }
