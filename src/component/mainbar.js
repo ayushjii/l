@@ -69,7 +69,7 @@ const MainStyles = styled.section`
 		width: 90%;
 	}
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
 	.hero__left,
 	.hero__right {
 		flex: 1;

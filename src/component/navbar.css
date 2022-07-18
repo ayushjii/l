@@ -103,18 +103,6 @@ li {
   display: none;
 }
 
-.facebook {
-  color: #3b5998;
-}
-
-.instagram {
-  color: #c32aa3;
-}
-
-.youtube {
-  color: #ff0000;
-}
-
 .hero-section {
   height: 80vh;
   display: flex;

@@ -5,18 +5,18 @@ import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Products from './Pages/Products';
 
-export default function App () {
 
-    
+export default function App () {
 
     return(
         <Router>
             <div>
            
-            <form action="/post" method="post" 
-              className="form">
-          <button type="submit">Connected?</button>
-        </form>
+            <form action="/post" method="post" >
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="fName" required />
+                <button type="submit">Connected?</button>
+            </form>
    
     
                 <Routes>

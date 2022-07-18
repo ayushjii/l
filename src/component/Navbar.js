@@ -9,10 +9,12 @@ const Navbar = () => {
   return (
     <>
       <nav className="main-nav">
-        <div className="logo">
-          <h2>
+        <div exact to="/" className="logo">
+          <h2 exact to="/" >
+          <NavLink exact to="/" >
             <span>J</span>adoo 
             <span> C</span>hawal
+            </NavLink>
           </h2>
         </div>
         <div

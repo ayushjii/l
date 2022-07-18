@@ -81,18 +81,18 @@ export default function Form() {
             Contact & Inquiry
           </h3>
           <div class="form__wrapper">
-            <form name="contact" method="POST" netlify>
+            <form name="contact" method="post" action='/post'>
               <div class="form__group">
                 <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="First Name" required />
+                <input type="text" id="firstName" name="FirstName" required />
               </div>
               <div class="form__group">
                 <label for="lastName">Last Name</label>
-                <input type="text" id="lastName" name="Last Name" required />
+                <input type="text" id="lastName" name="LastName" required />
               </div>
               <div class="form__group">
                 <label for="tel">Phone no.</label>
-                <input type="tel" id="tel" name="tel" required />
+                <input type="tel" id="tel" name="phone" required />
               </div>
               <div class="form__group">
                 <label for="subject">Subject</label>
